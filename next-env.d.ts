@@ -1,6 +1,5 @@
-import "@emotion/react";
-import { ITheme } from "./core/types/interface/ITheme";
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
 
-declare module "@emotion/react" {
-  export interface Theme extends ITheme {}
-}
+// NOTE: This file should not be edited
+// see https://nextjs.org/docs/basic-features/typescript for more information.
