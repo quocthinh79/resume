@@ -13,6 +13,11 @@ import {
   ContainerFixed,
   Row,
   Col,
+  List,
+  ListItem,
+  ItemMeta,
+  Image,
+  Card,
 } from "@cv/components";
 import {
   EBreakpoint,
@@ -24,6 +29,77 @@ import {
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const data = [
+    {
+      href: "https://ant.design",
+      title: `This is project name`,
+      avatar: `/images/icons/nextjs.png`,
+      description: "This is description of project",
+      content: (
+        <Descriptions column={1}>
+          <DescriptionItem label="Technology">
+            <Text>ReactJS, ReactJS,ReactJS,ReactJS,ReactJS,ReactJS</Text>
+          </DescriptionItem>
+          <DescriptionItem label="Github">
+            <Link href="https://github.com/quocthinh79">
+              https://github.com/quocthinh79
+            </Link>
+          </DescriptionItem>
+          <DescriptionItem label="Demo">
+            <Link href="thinhquocle524@gmail.com">
+              thinhquocle524@gmail.com
+            </Link>
+          </DescriptionItem>
+        </Descriptions>
+      ),
+    },
+    {
+      href: "https://ant.design",
+      title: `This is project name`,
+      avatar: `/images/icons/nextjs.png`,
+      description: "This is description of project",
+      content: (
+        <Descriptions column={1}>
+          <DescriptionItem label="Technology">
+            <Text>ReactJS, ReactJS,ReactJS,ReactJS,ReactJS,ReactJS</Text>
+          </DescriptionItem>
+          <DescriptionItem label="Github">
+            <Link href="https://github.com/quocthinh79">
+              https://github.com/quocthinh79
+            </Link>
+          </DescriptionItem>
+          <DescriptionItem label="Demo">
+            <Link href="thinhquocle524@gmail.com">
+              thinhquocle524@gmail.com
+            </Link>
+          </DescriptionItem>
+        </Descriptions>
+      ),
+    },
+    {
+      href: "https://ant.design",
+      title: `This is project name`,
+      avatar: `/images/icons/reactjs.png`,
+      description: "This is description of project",
+      content: (
+        <Descriptions column={1}>
+          <DescriptionItem label="Technology">
+            <Text>ReactJS, ReactJS,ReactJS,ReactJS,ReactJS,ReactJS</Text>
+          </DescriptionItem>
+          <DescriptionItem label="Github">
+            <Link href="https://github.com/quocthinh79">
+              https://github.com/quocthinh79
+            </Link>
+          </DescriptionItem>
+          <DescriptionItem label="Demo">
+            <Link href="thinhquocle524@gmail.com">
+              thinhquocle524@gmail.com
+            </Link>
+          </DescriptionItem>
+        </Descriptions>
+      ),
+    },
+  ];
   return (
     <>
       <Head>
@@ -33,47 +109,84 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ContainerFixed position="center" breakpoint={EBreakpoint.XL}>
-        <Row>
-          <Col span={10}>
-            <Space widthFull direction={EDirectionType.Horizontal}>
-              <Avatar size={150} src="/images/cv-avatar.jpg" />
-              <Space>
-                <Title level={1}>Le Quoc Thinh</Title>
-                <Title level={3}>Front End Developer</Title>
-                <Text>1/5/2001</Text>
-                <Text>Ho Chi Minh City</Text>
+        <Card>
+          <Row>
+            <Col span={10}>
+              <Space widthFull direction={EDirectionType.Horizontal}>
+                <Avatar size={150} src="/images/cv-avatar.jpg" />
+                <Space>
+                  <Title level={1}>Le Quoc Thinh</Title>
+                  <Title level={3}>Front End Developer</Title>
+                  <Text>1/5/2001</Text>
+                  <Text>Ho Chi Minh City</Text>
+                </Space>
               </Space>
-            </Space>
-          </Col>
-          <Col span={7} offset={7}>
-            <Descriptions column={1}>
-              <DescriptionItem label="Github">
-                <Link href="https://github.com/quocthinh79">
-                  https://github.com/quocthinh79
-                </Link>
-              </DescriptionItem>
-              <DescriptionItem label="Linkedin">
-                <Link href="https://www.linkedin.com/in/quocthinh524">
-                  https://www.linkedin.com/in/quocthinh524
-                </Link>
-              </DescriptionItem>
-              <DescriptionItem label="Email">
-                <Link href="mailto:thinhquocle524@gmail.com">
-                  thinhquocle524@gmail.com
-                </Link>
-              </DescriptionItem>
-              <DescriptionItem label="Phone">
-                <Link href="tel:+84982625202">+84982625202</Link>
-              </DescriptionItem>
-              <DescriptionItem label="Facebook">
-                <Link href="https://www.facebook.com/unlocker0808">
-                  https://www.facebook.com/unlocker0808
-                </Link>
-              </DescriptionItem>
-            </Descriptions>
-          </Col>
-        </Row>
-        <Divider orientation="left">PERSONAL SUMMARY</Divider>
+            </Col>
+            <Col span={7} offset={7}>
+              <Descriptions column={1}>
+                <DescriptionItem label="Github">
+                  <Link href="https://github.com/quocthinh79">
+                    https://github.com/quocthinh79
+                  </Link>
+                </DescriptionItem>
+                <DescriptionItem label="Linkedin">
+                  <Link href="https://www.linkedin.com/in/quocthinh524">
+                    https://www.linkedin.com/in/quocthinh524
+                  </Link>
+                </DescriptionItem>
+                <DescriptionItem label="Email">
+                  <Link href="mailto:thinhquocle524@gmail.com">
+                    thinhquocle524@gmail.com
+                  </Link>
+                </DescriptionItem>
+                <DescriptionItem label="Phone">
+                  <Link href="tel:+84982625202">+84982625202</Link>
+                </DescriptionItem>
+                <DescriptionItem label="Facebook">
+                  <Link href="https://www.facebook.com/unlocker0808">
+                    https://www.facebook.com/unlocker0808
+                  </Link>
+                </DescriptionItem>
+              </Descriptions>
+            </Col>
+          </Row>
+          <Divider orientation="left">PERSONAL SUMMARY</Divider>
+          <Divider orientation="left">EXPERIENCE</Divider>
+          <List
+            itemLayout="vertical"
+            size="large"
+            dataSource={data}
+            renderItem={(item) => (
+              <>
+                <ListItem
+                  key={item.title}
+                  extra={
+                    <Link href="https://quocthinh79.github.io/LaptopSellingWebsite/">
+                      <Card hoverable>
+                        <Image
+                          preview={false}
+                          alt="laptop_selling_website"
+                          src="/images/laptop_selling_website.png"
+                          width={150}
+                        />
+                      </Card>
+                    </Link>
+                  }
+                >
+                  <ItemMeta
+                    avatar={<Avatar src={item.avatar} />}
+                    title={<a href={item.href}>{item.title}</a>}
+                    description={item.description}
+                  />
+                  {item.content}
+                </ListItem>
+              </>
+            )}
+          />
+          <Divider orientation="left">
+            DeepTech Technology Joint Stock Company (Oct 2022 - Apr 2023)
+          </Divider>
+        </Card>
       </ContainerFixed>
     </>
   );
