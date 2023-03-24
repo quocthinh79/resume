@@ -22,7 +22,7 @@ export function Descriptions({
   contentStyle,
   labelStyle,
   layout,
-  size,
+  size = "small",
   title,
   column,
 }: DescriptionsProps) {
