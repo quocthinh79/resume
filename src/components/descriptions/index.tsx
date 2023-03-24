@@ -5,7 +5,11 @@ import { CSSProperties } from "react";
 import { ReactNode } from "react";
 import DescriptionItem from "./item";
 
-const StyledDescription = styled(DescriptionsCustom)``;
+const StyledDescription = styled(DescriptionsCustom)`
+  .ant-descriptions-header {
+    margin-bottom: 0;
+  }
+`;
 
 export interface DescriptionsProps {
   contentStyle?: CSSProperties;

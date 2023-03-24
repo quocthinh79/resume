@@ -43,9 +43,8 @@ export default function Home() {
             </Col>
           </Row>
           <PersonalSummary />
-          <PersonalExperience />
           <DeeptechCompany />
-          <AcademicQualifications />
+          <PersonalExperience />
         </Card>
       </ContainerFixed>
     </>

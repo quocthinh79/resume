@@ -3,7 +3,7 @@ import React from "react";
 
 export function ContactWithMe() {
   return (
-    <Descriptions column={1}>
+    <Descriptions column={1} title="Contact">
       <DescriptionItem label="Github">
         <Link href="https://github.com/quocthinh79">
           https://github.com/quocthinh79

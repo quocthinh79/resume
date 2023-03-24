@@ -3,14 +3,11 @@ import {
   DescriptionItem,
   Descriptions,
   Divider,
-  Flex,
   ItemMeta,
   List,
   ListItem,
   Text,
 } from "@cv/components";
-import { EFlexAlign, EJustifyFlex } from "@cv/core";
-import React from "react";
 
 function AcademicQualifications() {
   const data = [
@@ -26,7 +23,6 @@ function AcademicQualifications() {
   ];
   return (
     <>
-      <Divider orientation="left">Academic Qualifications</Divider>
       <List
         itemLayout="vertical"
         size="large"

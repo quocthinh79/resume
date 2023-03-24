@@ -1,6 +1,7 @@
 import {
   Avatar,
   Card,
+  Flex,
   Image,
   ItemMeta,
   Link,
@@ -8,7 +9,9 @@ import {
   ListItem,
   Text,
 } from "@cv/components";
+import { EJustifyFlex } from "@cv/core";
 import React from "react";
+import EFlexAlign from "src/core/types/enum/EAlignFlex";
 import DescriptionsProject, {
   DescriptionsProjectProps,
 } from "../descriptions-project";
@@ -46,16 +49,16 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
               key={title}
               extra={
                 imageDemo ? (
-                  <Link href={descriptionProject?.demoLink}>
-                    <Card hoverable>
-                      <Image
-                        preview={false}
-                        alt={title}
-                        src={imageDemo}
-                        width={150}
-                      />
-                    </Card>
-                  </Link>
+                  <Flex
+                    height={"100%"}
+                    width={"150px"}
+                    align={EFlexAlign.Center}
+                    justify={EJustifyFlex.Center}
+                  >
+                    <Link href={descriptionProject?.demoLink}>
+                      <Image preview={false} alt={title} src={imageDemo} />
+                    </Link>
+                  </Flex>
                 ) : (
                   <></>
                 )

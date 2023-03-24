@@ -9,3 +9,4 @@ export * from "./grid";
 export * from "./list";
 export * from "./image";
 export * from "./card";
+export * from "./timeline";

@@ -3,7 +3,10 @@ import styled from "@emotion/styled";
 import React from "react";
 import { ReactNode } from "react";
 
-const StyledTitle = styled(TitleCustom)``;
+const StyledTitle = styled(TitleCustom)`
+  margin: 0;
+  margin-bottom: 0 !important;
+`;
 
 export interface TitleProps {
   children?: ReactNode;
