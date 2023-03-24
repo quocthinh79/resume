@@ -14,6 +14,7 @@ import {
 } from "@cv/components";
 import { ContactWithMe } from "@cv/compositions";
 import { EBreakpoint, EDirectionType } from "@cv/core";
+import styled from "@emotion/styled";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import AcademicQualifications from "src/compositions/academic-qualifications";
@@ -22,6 +23,11 @@ import PersonalExperience from "src/compositions/personal-experience";
 import PersonalInformation from "src/compositions/personal-information";
 import PersonalSummary from "src/compositions/personal-summary";
 const inter = Inter({ subsets: ["latin"] });
+
+const StyledContainerFixed = styled(ContainerFixed)`
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 6rem;
+`;
 
 export default function Home() {
   return (
@@ -32,7 +38,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ContainerFixed position="center" breakpoint={EBreakpoint.LG}>
+      <StyledContainerFixed position="center" breakpoint={EBreakpoint.LG}>
         <Card>
           <Row>
             <Col span={11}>
@@ -46,7 +52,7 @@ export default function Home() {
           <DeeptechCompany />
           <PersonalExperience />
         </Card>
-      </ContainerFixed>
+      </StyledContainerFixed>
     </>
   );
 }
