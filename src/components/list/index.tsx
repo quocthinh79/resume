@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import { default as ListCustom } from "./list";
 import ListItem from "./item/index";
 import ItemMeta from "./item-meta";
+import { DescriptionsListDataProps } from "@cv/compositions";
 
 export interface ListProps {
   itemLayout?: "horizontal" | "vertical";

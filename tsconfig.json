@@ -16,9 +16,10 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"],
-      "@cv/components": ["src/components/index.ts"]
-      // "@images": ["./src/images/*"]
+      // "@/*": ["./src/*"],
+      "@cv/components": ["src/components/index.ts"],
+      "@cv/compositions": ["src/compositions/index.ts"],
+      "@cv/core": ["src/core/index.tsx"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
