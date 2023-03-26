@@ -71,16 +71,7 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
                 }
                 description={description}
               />
-              <DescriptionsProject
-                key={descriptionProject?.key || ""}
-                technology={descriptionProject?.technology}
-                githubLink={descriptionProject?.githubLink}
-                githubTitle={descriptionProject?.githubTitle}
-                demoLink={descriptionProject?.demoLink}
-                demoTitle={descriptionProject?.demoTitle}
-                teamSize={descriptionProject?.teamSize}
-                role={descriptionProject?.role}
-              />
+              <DescriptionsProject {...descriptionProject} />
             </ListItem>
           </>
         );

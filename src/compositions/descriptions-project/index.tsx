@@ -3,7 +3,7 @@ import { DescriptionItem, Descriptions, Link, Text } from "@cv/components";
 import React, { Key } from "react";
 
 export interface DescriptionsProjectProps {
-  key: string | number | Key;
+  key?: string | number | Key;
   technology?: string[];
   githubLink?: string;
   githubTitle?: string;
@@ -11,6 +11,7 @@ export interface DescriptionsProjectProps {
   demoTitle?: string;
   role?: string;
   teamSize?: number;
+  knowledge?: string[];
 }
 
 export function DescriptionsProject({
@@ -22,8 +23,10 @@ export function DescriptionsProject({
   key,
   role,
   teamSize,
+  knowledge,
 }: DescriptionsProjectProps) {
   const _technology = arrayToString(technology);
+  const _knowledge = arrayToString(knowledge);
 
   return (
     <Descriptions key={key} column={1}>
@@ -33,6 +36,9 @@ export function DescriptionsProject({
       {role && <DescriptionItem label="Role">{role}</DescriptionItem>}
       {teamSize && (
         <DescriptionItem label="Team size">{teamSize}</DescriptionItem>
+      )}
+      {knowledge && (
+        <DescriptionItem label="Knowledge">{_knowledge}</DescriptionItem>
       )}
       {(githubLink || githubTitle) && (
         <DescriptionItem label="Github">

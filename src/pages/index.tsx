@@ -1,28 +1,13 @@
-import {
-  Avatar,
-  Card,
-  Col,
-  ContainerFixed,
-  DescriptionItem,
-  Descriptions,
-  Divider,
-  Link,
-  Row,
-  Space,
-  Text,
-  Title,
-} from "@cv/components";
+import { Card, Col, ContainerFixed, Row } from "@cv/components";
 import { ContactWithMe } from "@cv/compositions";
-import { EBreakpoint, EDirectionType } from "@cv/core";
+import { EBreakpoint } from "@cv/core";
 import styled from "@emotion/styled";
 import { Inter } from "next/font/google";
 import Head from "next/head";
-import AcademicQualifications from "src/compositions/academic-qualifications";
 import DeeptechCompany from "src/compositions/deeptech-company";
 import PersonalExperience from "src/compositions/personal-experience";
 import PersonalInformation from "src/compositions/personal-information";
 import PersonalSummary from "src/compositions/personal-summary";
-import SoftSkills from "src/compositions/soft-skills";
 import SpecializedSkills from "src/compositions/specialized-skills";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -52,7 +37,6 @@ export default function Home() {
           </Row>
           <PersonalSummary />
           <SpecializedSkills />
-          <SoftSkills />
           <DeeptechCompany />
           <PersonalExperience />
         </Card>

@@ -18,6 +18,8 @@ function PersonalExperience() {
         technology: ["ReactJS", "Ant Design", "Emotion Styled", "Typescript"],
         githubLink: "https://github.com/quocthinh79/ChuyenDeWeb",
         demoLink: "https://demo-e-commerce-laptop.netlify.app/",
+        knowledge: ["TypeScript", "Ant Design", "Customize hooks"],
+        teamSize: 1,
       },
     },
     {
@@ -32,6 +34,8 @@ function PersonalExperience() {
         technology: ["NextJS", "Ant Design", "Typescript"],
         githubLink: "https://github.com/quocthinh79/resume",
         demoLink: "https://quoc-thinh-resume.netlify.app/",
+        knowledge: ["NextJS", "Ant Design", "SEO"],
+        teamSize: 1,
       },
     },
     {
@@ -46,6 +50,8 @@ function PersonalExperience() {
         technology: ["HTML", "CSS", "SCSS"],
         githubLink: "https://github.com/quocthinh79/CV",
         demoLink: "https://cv-quocthinh.vercel.app/",
+        knowledge: ["Improve CSS skill"],
+        teamSize: 1,
       },
     },
     {
@@ -67,6 +73,8 @@ function PersonalExperience() {
         ],
         githubLink: "https://github.com/quocthinh79/MovieProject",
         demoLink: "https://movie-project-bdb9.vercel.app/",
+        knowledge: ["API calling"],
+        teamSize: 1,
       },
     },
     {
@@ -80,6 +88,8 @@ function PersonalExperience() {
         technology: ["ReactJS", "Axios", "SCSS"],
         githubLink: "https://github.com/quocthinh79/deckofcard",
         demoLink: "https://deckofcard-h0mpz14rb-quocthinh79.vercel.app/",
+        knowledge: ["API calling", "Improve logic"],
+        teamSize: 1,
       },
     },
     {
@@ -94,6 +104,8 @@ function PersonalExperience() {
         technology: ["ReactJS", "Bootstrap"],
         githubLink: "https://github.com/quocthinh79/Todo_List",
         demoLink: "https://todo-list-beige-delta.vercel.app/",
+        knowledge: ["Apply data structures and algorithms"],
+        teamSize: 1,
       },
     },
     {
@@ -107,6 +119,8 @@ function PersonalExperience() {
         technology: ["ReactJS", "Redux Tool Kit"],
         githubLink: "https://github.com/quocthinh79/PhotoAppReduxBasic",
         demoLink: "https://quocthinh79.github.io/PhotoAppReduxBasic/#/photos",
+        knowledge: ["Redux", "Redux tool kit"],
+        teamSize: 1,
       },
     },
     {
@@ -121,6 +135,9 @@ function PersonalExperience() {
         technology: ["Angular", "RXJS", "Bootstrap"],
         githubLink: "https://github.com/quocthinh79/NewsApp_Angular",
         demoLink: "https://newsappangular-815ac.web.app/",
+        knowledge: ["Angular", "API calling"],
+        teamSize: 3,
+        role: "Lead team",
       },
     },
     {
@@ -133,6 +150,9 @@ function PersonalExperience() {
         technology: ["JSP - Servlet", "HTML", "CSS", "Ajax", "JQuery"],
         githubLink:
           "https://github.com/quocthinh79/JSP_Servlet_LaptopSellingWebsite",
+        knowledge: ["Ajax", "JSP", "Servlet", "MySQL"],
+        teamSize: 3,
+        role: "Lead team",
       },
     },
     {
@@ -146,6 +166,9 @@ function PersonalExperience() {
         technology: ["HTML", "CSS", "JS"],
         githubLink: "https://github.com/quocthinh79/LaptopSellingWebsite/",
         demoLink: "https://quocthinh79.github.io/LaptopSellingWebsite/",
+        knowledge: ["HTML", "CSS", "JS"],
+        teamSize: 3,
+        role: "Lead team",
       },
     },
     {
@@ -159,6 +182,8 @@ function PersonalExperience() {
         technology: ["HTML", "SCSS", "JQuery"],
         githubLink: "https://github.com/quocthinh79/SnakeGame",
         demoLink: "https://quocthinh79.github.io/SnakeGame/",
+        knowledge: ["JQuery"],
+        teamSize: 1,
       },
     },
     {
@@ -169,9 +194,10 @@ function PersonalExperience() {
       imageDemo: "/images/the_band.png",
       descriptionProject: {
         key: 0,
-        technology: ["HTML", "SCSS"],
+        technology: ["HTML", "CSS"],
         githubLink: "https://github.com/quocthinh79/TheBand",
         demoLink: "https://quocthinh79.github.io/TheBand/",
+        teamSize: 1,
       },
     },
   ];

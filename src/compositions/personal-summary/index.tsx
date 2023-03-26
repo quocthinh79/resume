@@ -9,19 +9,11 @@ function PersonalSummary() {
         items={[
           {
             children:
-              "More than six - month experience working as front-end developer with ReactJS in DeepTech",
+              "I have more than six months of practical experience working with Monorepo, ReactJS, NextJS at DeepTech Technology Joint Stock Company",
           },
           {
             children:
-              "I want to be a website developer specializing in front end",
-          },
-          {
-            children:
-              "I have learnt about these things: HTML, CSS, SCSS, JavaScript, TypeScript, ReactJS, NextJS, MySQL, SQL Server",
-          },
-          {
-            children:
-              "Strive to be a mid-level web developer with ReactJS in the next years",
+              "Experience and knowledge in learning and implementing personal projects using ReactJS, NextJS, JavaScript, TypeScript, CSS, SCSS technologies.",
           },
         ]}
       />

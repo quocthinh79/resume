@@ -16,6 +16,13 @@ export function DeeptechCompany() {
         teamSize: 3,
         role: "Fresher",
         technology: ["Nx"],
+        knowledge: [
+          "Reusable and extensible code management",
+          "Architecture of monorepo",
+          "TypeScript",
+          "Ant Design",
+          "Working with Golang back-end",
+        ],
       },
     },
     {
@@ -28,6 +35,11 @@ export function DeeptechCompany() {
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "TailwindCSS"],
+        knowledge: [
+          "Working with Figma",
+          "Improve performance of landing page",
+          "Responsive with TailwindCSS",
+        ],
         demoLink: "https://deeporium.com/",
         teamSize: 1,
       },
@@ -42,6 +54,7 @@ export function DeeptechCompany() {
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "SCSS", "Bootstrap", "GSAP"],
+        knowledge: ["Working with Figma", "Use the GSAP library"],
         demoLink: "https://www.deeptech.vn/",
         teamSize: 2,
         role: "Member",

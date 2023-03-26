@@ -8,17 +8,16 @@ function SpecializedSkills() {
       <Timeline
         items={[
           {
-            children:
-              "Experience working with web development technologies, including: ReactJS, NextJS, Java",
+            children: "Web development technologies: ReactJS, NextJS, Java",
           },
           {
-            children: "Knowledge of HTML5/CSS3/JavaScript and Typescript",
+            children: "HTML5/CSS3/JavaScript and Typescript",
           },
           {
-            children: "Knowledge of CSS framework: TailwindCSS",
+            children: "CSS framework: TailwindCSS",
           },
           {
-            children: "Knowledge of design system: Ant Design",
+            children: "Design system: Ant Design",
           },
           {
             children:
@@ -29,8 +28,7 @@ function SpecializedSkills() {
               "Project management tools: Trello, Notion, Git GUI (GitKraken Gitfork, TortoiseGit), GitHub, GitLab",
           },
           {
-            children:
-              "Knowledge working with database system: MySQL, SQL Server",
+            children: "Database system: MySQL, SQL Server",
           },
         ]}
       />
