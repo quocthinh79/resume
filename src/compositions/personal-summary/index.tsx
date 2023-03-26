@@ -13,26 +13,15 @@ function PersonalSummary() {
           },
           {
             children:
-              "Experience working with web development technologies, including: ReactJS, NextJS, Java",
+              "I want to be a website developer specializing in front end",
           },
           {
             children:
-              "Knowledge of HTML5/CSS3/TailwindCSS/JavaScript and Typescript",
+              "I have learnt about these things: HTML, CSS, SCSS, JavaScript, TypeScript, ReactJS, NextJS, MySQL, SQL Server",
           },
           {
             children:
-              "Using IDE: Visual Studio Code, IntelliJ, WebStorm, Eclipse",
-          },
-          {
-            children:
-              "Project management tools: Trello, Notion, Git GUI (GitKraken Gitfork, TortoiseGit), GitHub, GitLab",
-          },
-          {
-            children: "Experience with front-end development (ReactJS)",
-          },
-          {
-            children:
-              "Knowledge working with database system: MySQL, SQL Server",
+              "Strive to be a mid-level web developer with ReactJS in the next years",
           },
         ]}
       />

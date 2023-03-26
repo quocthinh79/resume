@@ -22,6 +22,8 @@ import DeeptechCompany from "src/compositions/deeptech-company";
 import PersonalExperience from "src/compositions/personal-experience";
 import PersonalInformation from "src/compositions/personal-information";
 import PersonalSummary from "src/compositions/personal-summary";
+import SoftSkills from "src/compositions/soft-skills";
+import SpecializedSkills from "src/compositions/specialized-skills";
 const inter = Inter({ subsets: ["latin"] });
 
 const StyledContainerFixed = styled(ContainerFixed)`
@@ -49,6 +51,8 @@ export default function Home() {
             </Col>
           </Row>
           <PersonalSummary />
+          <SpecializedSkills />
+          <SoftSkills />
           <DeeptechCompany />
           <PersonalExperience />
         </Card>
