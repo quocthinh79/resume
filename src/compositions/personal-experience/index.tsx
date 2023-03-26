@@ -8,9 +8,10 @@ function PersonalExperience() {
   const dataSourcePersonal: DescriptionsListDataProps[] = [
     {
       href: "https://demo-e-commerce-laptop.netlify.app/",
-      title: `Laptop Selling Website 2`,
+      title: `E-COMMERCE LAPTOP WEBSITE`,
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description:
+        "An e-commerce website implemented with ReactJS and Ant Design",
       imageDemo: "/images/laptop-selling-website-1.png",
       descriptionProject: {
         key: 0,
@@ -23,8 +24,9 @@ function PersonalExperience() {
       href: "https://quoc-thinh-resume.netlify.app/",
       title: `My Resume`,
       avatar: `/images/icons/nextjs.png`,
-      description: "This is description of project",
-      imageDemo: "/images/laptop_selling_website.png",
+      description:
+        "The website describes in detail my experience and knowledge in the field of programming",
+      imageDemo: "/images/resume.png",
       descriptionProject: {
         key: 0,
         technology: ["NextJS", "Ant Design", "Typescript"],
@@ -33,10 +35,25 @@ function PersonalExperience() {
       },
     },
     {
+      href: "https://cv-quocthinh.vercel.app/",
+      title: `My old resume`,
+      avatar: `/images/icons/html.png`,
+      description:
+        "The website describes in detail my experience and knowledge in the field of programming",
+      imageDemo: "/images/old-resume.png",
+      descriptionProject: {
+        key: 0,
+        technology: ["HTML", "CSS", "SCSS"],
+        githubLink: "https://github.com/quocthinh79/CV",
+        demoLink: "https://cv-quocthinh.vercel.app/",
+      },
+    },
+    {
       href: "https://movie-project-bdb9.vercel.app/",
       title: `Movie web`,
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description:
+        "Combined with themoviedb's API to make a website about watching movies",
       imageDemo: "/images/movie-project.png",
       descriptionProject: {
         key: 0,
@@ -56,7 +73,7 @@ function PersonalExperience() {
       href: "https://deckofcard-h0mpz14rb-quocthinh79.vercel.app/",
       title: `CARD GAME`,
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description: "A simple entertainment game made with ReactJS",
       imageDemo: "/images/deckofcard.png",
       descriptionProject: {
         key: 0,
@@ -69,7 +86,8 @@ function PersonalExperience() {
       href: "https://todo-list-beige-delta.vercel.app/",
       title: `TO DO LIST`,
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description:
+        "Todo list is simple but combined with sorting algorithms and data structures",
       imageDemo: "/images/todo-list.png",
       descriptionProject: {
         key: 0,
@@ -82,7 +100,7 @@ function PersonalExperience() {
       href: "https://quocthinh79.github.io/PhotoAppReduxBasic/#/photos",
       title: "PHOTO APP",
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description: "Simple website for redux practice",
       imageDemo: "/images/photo_app.png",
       descriptionProject: {
         key: 0,
@@ -95,8 +113,9 @@ function PersonalExperience() {
       href: "https://newsappangular-815ac.web.app/",
       title: "NEWS WEBSITE",
       avatar: `/images/icons/angular.png`,
-      description: "This is description of project",
-      imageDemo: "/images/laptop_selling_website.png",
+      description:
+        "Implement newspaper reading website with RSS provided from website",
+      imageDemo: "/images/news-website.png",
       descriptionProject: {
         key: 0,
         technology: ["Angular", "RXJS", "Bootstrap"],
@@ -106,9 +125,9 @@ function PersonalExperience() {
     },
     {
       href: "https://github.com/quocthinh79/JSP_Servlet_LaptopSellingWebsite",
-      title: "ECOMMERCE WEBSITE",
+      title: "E-COMMERCE LAPTOP WEBSITE",
       avatar: `/images/icons/java.png`,
-      description: "This is description of project",
+      description: "E-commerce website implemented by JSP Servlet",
       descriptionProject: {
         key: 0,
         technology: ["JSP - Servlet", "HTML", "CSS", "Ajax", "JQuery"],
@@ -118,9 +137,9 @@ function PersonalExperience() {
     },
     {
       href: "https://quocthinh79.github.io/LaptopSellingWebsite/",
-      title: "ECOMMERCE WEBSITE",
+      title: "E-COMMERCE LAPTOP WEBSITE",
       avatar: `/images/icons/html.png`,
-      description: "This is description of project",
+      description: "Implement e-commerce website with HTML CSS JS",
       imageDemo: "/images/laptop_selling_website.png",
       descriptionProject: {
         key: 0,
@@ -133,7 +152,7 @@ function PersonalExperience() {
       href: "https://quocthinh79.github.io/SnakeGame/",
       title: "SNAKE GAME",
       avatar: `/images/icons/html.png`,
-      description: "This is description of project",
+      description: "Simple snake hunting game with 7 levels",
       imageDemo: "/images/snake_game.png",
       descriptionProject: {
         key: 0,
@@ -146,7 +165,7 @@ function PersonalExperience() {
       href: "https://quocthinh79.github.io/TheBand/",
       title: "The Band",
       avatar: `/images/icons/html.png`,
-      description: "This is description of project",
+      description: "HTML CSS practice site",
       imageDemo: "/images/the_band.png",
       descriptionProject: {
         key: 0,

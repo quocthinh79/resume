@@ -9,7 +9,8 @@ export function DeeptechCompany() {
     {
       title: `Monorepo`,
       avatar: `/images/icons/nx-dev.png`,
-      description: "This is description of project",
+      description:
+        "Be approached and work with monorepo architecture in six month",
       descriptionProject: {
         key: 0,
         teamSize: 3,
@@ -21,7 +22,8 @@ export function DeeptechCompany() {
       href: "https://deeporium.com/",
       title: `Deeporium.com`,
       avatar: `/images/icons/html.png`,
-      description: "This is description of project",
+      description:
+        "One of the static websites about DeepTech Technology Joint Stock Company",
       imageDemo: "/images/deeporium.png",
       descriptionProject: {
         key: 0,
@@ -34,7 +36,8 @@ export function DeeptechCompany() {
       href: "https://www.deeptech.vn/",
       title: `Deeptech.vn`,
       avatar: `/images/icons/reactjs.png`,
-      description: "This is description of project",
+      description:
+        "One of the static websites about DeepTech Technology Joint Stock Company",
       imageDemo: "/images/deeptech.png",
       descriptionProject: {
         key: 0,
