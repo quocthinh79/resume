@@ -35,13 +35,13 @@ export function DeeptechCompany() {
     {
       href: "https://www.deeptech.vn/",
       title: `Deeptech.vn`,
-      avatar: `/images/icons/reactjs.png`,
+      avatar: `/images/icons/html.png`,
       description:
         "One of the static websites about DeepTech Technology Joint Stock Company",
       imageDemo: "/images/deeptech.png",
       descriptionProject: {
         key: 0,
-        technology: ["ReactJS", "Bootstrap", "GSAP"],
+        technology: ["HTML", "CSS", "SCSS", "Bootstrap", "GSAP"],
         demoLink: "https://www.deeptech.vn/",
         teamSize: 2,
         role: "Member",
