@@ -9,8 +9,6 @@ export interface DescriptionsProjectProps {
   githubTitle?: string;
   demoLink?: string;
   demoTitle?: string;
-  role?: string;
-  teamSize?: number;
   knowledge?: string[];
 }
 
@@ -21,8 +19,6 @@ export function DescriptionsProject({
   githubTitle,
   technology,
   key,
-  role,
-  teamSize,
   knowledge,
 }: DescriptionsProjectProps) {
   const _technology = arrayToString(technology);
@@ -32,10 +28,6 @@ export function DescriptionsProject({
     <Descriptions key={key} column={1}>
       {technology && (
         <DescriptionItem label="Technology">{_technology}</DescriptionItem>
-      )}
-      {role && <DescriptionItem label="Role">{role}</DescriptionItem>}
-      {teamSize && (
-        <DescriptionItem label="Team size">{teamSize}</DescriptionItem>
       )}
       {knowledge && (
         <DescriptionItem label="Knowledge">{_knowledge}</DescriptionItem>

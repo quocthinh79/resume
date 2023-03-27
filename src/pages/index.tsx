@@ -12,8 +12,9 @@ import SpecializedSkills from "src/compositions/specialized-skills";
 const inter = Inter({ subsets: ["latin"] });
 
 const StyledContainerFixed = styled(ContainerFixed)`
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 22px 70px 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 22px 70px 4px;
   border-radius: 40px;
+  margin: 24px auto !important;
 `;
 
 export default function Home() {

@@ -130,8 +130,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/NewsApp_Angular",
         demoLink: "https://newsappangular-815ac.web.app/",
         knowledge: ["Angular", "API calling"],
-        teamSize: 3,
-        role: "Lead team",
       },
     },
     {
@@ -146,8 +144,6 @@ function PersonalExperience() {
         githubLink:
           "https://github.com/quocthinh79/JSP_Servlet_LaptopSellingWebsite",
         knowledge: ["Ajax", "JSP", "Servlet", "MySQL"],
-        teamSize: 3,
-        role: "Lead team",
       },
     },
     {

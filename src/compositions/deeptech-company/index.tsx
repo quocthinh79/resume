@@ -14,8 +14,6 @@ export function DeeptechCompany() {
       imageDemo: "/images/nx-dev.png",
       descriptionProject: {
         key: 0,
-        teamSize: 3,
-        role: "Fresher",
         technology: ["Nx"],
         knowledge: [
           "Reusable and extensible code management",
@@ -56,8 +54,6 @@ export function DeeptechCompany() {
         technology: ["HTML", "CSS", "SCSS", "Bootstrap", "GSAP"],
         knowledge: ["Working with Figma", "Use the GSAP library"],
         demoLink: "https://www.deeptech.vn/",
-        teamSize: 2,
-        role: "Member",
       },
     },
   ];

@@ -50,7 +50,7 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
               key={title}
               extra={
                 <Flex
-                  height={"100%"}
+                  height="100%"
                   width={"200px"}
                   align={EFlexAlign.Center}
                   justify={EJustifyFlex.Center}
@@ -58,7 +58,12 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
                   <Link href={descriptionProject?.demoLink}>
                     {imageDemo ? (
                       <Card>
-                        <Image preview={false} alt={title} src={imageDemo} />
+                        <Image
+                          preview={false}
+                          width="100%"
+                          alt={title}
+                          src={imageDemo}
+                        />
                       </Card>
                     ) : (
                       <></>
@@ -68,7 +73,6 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
               }
             >
               <ItemMeta
-                // avatar={<Avatar src={avatar} />}
                 title={
                   href ? (
                     <Link href={href} upperCase>
