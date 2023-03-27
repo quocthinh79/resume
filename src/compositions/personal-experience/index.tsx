@@ -12,7 +12,7 @@ function PersonalExperience() {
       title: `E-COMMERCE LAPTOP WEBSITE`,
       avatar: `/images/icons/reactjs.png`,
       description:
-        "An e-commerce website implemented with ReactJS and Ant Design",
+        "Create an e-commerce site with ReactJS and TypeScript. Manage reusable code and practice custom hooks",
       imageDemo: "/images/laptop-selling-website-1.png",
       descriptionProject: {
         key: 0,
@@ -27,7 +27,7 @@ function PersonalExperience() {
       title: `My Resume`,
       avatar: `/images/icons/nextjs.png`,
       description:
-        "My programming skills and knowledge are detailed on my website.",
+        "NextJS fundamental training and Ant Design skills practice.",
       imageDemo: "/images/resume.png",
       descriptionProject: {
         key: 0,
@@ -41,8 +41,7 @@ function PersonalExperience() {
       href: "https://cv-quocthinh.vercel.app/",
       title: `My old resume`,
       avatar: `/images/icons/html.png`,
-      description:
-        "My programming skills and knowledge are detailed on my website.",
+      description: "Develop and practice your HTML and CSS abilities.",
       imageDemo: "/images/old-resume.png",
       descriptionProject: {
         key: 0,
@@ -56,8 +55,7 @@ function PersonalExperience() {
       href: "https://movie-project-bdb9.vercel.app/",
       title: `Movie web`,
       avatar: `/images/icons/reactjs.png`,
-      description:
-        "Combined with themoviedb's API to make a website about watching movies",
+      description: "Using themoviedb's given API knowledge",
       imageDemo: "/images/movie-project.png",
       descriptionProject: {
         key: 0,
@@ -78,7 +76,8 @@ function PersonalExperience() {
       href: "https://deckofcard-h0mpz14rb-quocthinh79.vercel.app/",
       title: `CARD GAME`,
       avatar: `/images/icons/reactjs.png`,
-      description: "A simple entertainment game made with ReactJS",
+      description:
+        "Create a small game with ReactJS while honing my reasoning abilities and leveraging API",
       imageDemo: "/images/deckofcard.png",
       descriptionProject: {
         key: 0,
@@ -93,7 +92,7 @@ function PersonalExperience() {
       title: `TO DO LIST`,
       avatar: `/images/icons/reactjs.png`,
       description:
-        "Todo list is simple but combined with sorting algorithms and data structures",
+        "To-do lists are straightforward but paired with data structures and sorting algorithms. using data structures and algorithms to address issues in the real world",
       imageDemo: "/images/todo-list.png",
       descriptionProject: {
         key: 0,
@@ -107,7 +106,7 @@ function PersonalExperience() {
       href: "https://quocthinh79.github.io/PhotoAppReduxBasic/#/photos",
       title: "PHOTO APP",
       avatar: `/images/icons/reactjs.png`,
-      description: "Simple website for redux practice",
+      description: "Simple website for Redux practice",
       imageDemo: "/images/photo_app.png",
       descriptionProject: {
         key: 0,
@@ -164,7 +163,8 @@ function PersonalExperience() {
       href: "https://quocthinh79.github.io/SnakeGame/",
       title: "SNAKE GAME",
       avatar: `/images/icons/html.png`,
-      description: "Simple snake hunting game with 7 levels",
+      description:
+        "A straightforward 7-level snake-hunting game. Boost your knowledge of logic and JQuery.",
       imageDemo: "/images/snake_game.png",
       descriptionProject: {
         key: 0,

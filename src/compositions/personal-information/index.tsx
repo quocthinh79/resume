@@ -28,7 +28,7 @@ function PersonalInformation() {
             <Title level={3}>Front End Developer</Title>
           </Space>
           <Descriptions column={1} size="small">
-            <DescriptionItem label="Birthday">1/5/2001</DescriptionItem>
+            <DescriptionItem label="Birthday">May 1, 2001</DescriptionItem>
             <DescriptionItem label="Location">Ho Chi Minh City</DescriptionItem>
             <DescriptionItem label="Github">
               <Link href="https://github.com/quocthinh79">
