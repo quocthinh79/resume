@@ -9,13 +9,35 @@ export interface TextProps {
   italic?: boolean;
   type?: "secondary" | "success" | "warning" | "danger";
   underline?: boolean;
+  upperCase?: boolean;
+  lowerCase?: boolean;
 }
 
 const StyledText = styled(TextCustom)``;
 
-export function Text({ children, strong, italic, underline }: TextProps) {
+export function Text({
+  children,
+  strong,
+  italic,
+  underline,
+  upperCase,
+  lowerCase,
+}: TextProps) {
   const passProps = { strong, italic, underline };
-  return <StyledText {...passProps}>{children}</StyledText>;
+  return (
+    <StyledText
+      style={
+        upperCase
+          ? { textTransform: "uppercase" }
+          : lowerCase
+          ? { textTransform: "lowercase" }
+          : { textTransform: "none" }
+      }
+      {...passProps}
+    >
+      {children}
+    </StyledText>
+  );
 }
 
 export default Text;

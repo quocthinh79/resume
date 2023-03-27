@@ -1,4 +1,5 @@
-import { Divider } from "@cv/components";
+import { ContainerFixed, Divider, Text } from "@cv/components";
+import { EBreakpoint } from "@cv/core";
 import React from "react";
 import DescriptionsList, {
   DescriptionsListDataProps,
@@ -19,7 +20,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/ChuyenDeWeb",
         demoLink: "https://demo-e-commerce-laptop.netlify.app/",
         knowledge: ["TypeScript", "Ant Design", "Customize hooks"],
-        teamSize: 1,
       },
     },
     {
@@ -27,7 +27,7 @@ function PersonalExperience() {
       title: `My Resume`,
       avatar: `/images/icons/nextjs.png`,
       description:
-        "The website describes in detail my experience and knowledge in the field of programming",
+        "My programming skills and knowledge are detailed on my website.",
       imageDemo: "/images/resume.png",
       descriptionProject: {
         key: 0,
@@ -35,7 +35,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/resume",
         demoLink: "https://quoc-thinh-resume.netlify.app/",
         knowledge: ["NextJS", "Ant Design", "SEO"],
-        teamSize: 1,
       },
     },
     {
@@ -43,7 +42,7 @@ function PersonalExperience() {
       title: `My old resume`,
       avatar: `/images/icons/html.png`,
       description:
-        "The website describes in detail my experience and knowledge in the field of programming",
+        "My programming skills and knowledge are detailed on my website.",
       imageDemo: "/images/old-resume.png",
       descriptionProject: {
         key: 0,
@@ -51,7 +50,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/CV",
         demoLink: "https://cv-quocthinh.vercel.app/",
         knowledge: ["Improve CSS skill"],
-        teamSize: 1,
       },
     },
     {
@@ -74,7 +72,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/MovieProject",
         demoLink: "https://movie-project-bdb9.vercel.app/",
         knowledge: ["API calling"],
-        teamSize: 1,
       },
     },
     {
@@ -89,7 +86,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/deckofcard",
         demoLink: "https://deckofcard-h0mpz14rb-quocthinh79.vercel.app/",
         knowledge: ["API calling", "Improve logic"],
-        teamSize: 1,
       },
     },
     {
@@ -105,7 +101,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/Todo_List",
         demoLink: "https://todo-list-beige-delta.vercel.app/",
         knowledge: ["Apply data structures and algorithms"],
-        teamSize: 1,
       },
     },
     {
@@ -120,7 +115,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/PhotoAppReduxBasic",
         demoLink: "https://quocthinh79.github.io/PhotoAppReduxBasic/#/photos",
         knowledge: ["Redux", "Redux tool kit"],
-        teamSize: 1,
       },
     },
     {
@@ -145,6 +139,7 @@ function PersonalExperience() {
       title: "E-COMMERCE LAPTOP WEBSITE",
       avatar: `/images/icons/java.png`,
       description: "E-commerce website implemented by JSP Servlet",
+      imageDemo: "/images/laptop_selling_website.png",
       descriptionProject: {
         key: 0,
         technology: ["JSP - Servlet", "HTML", "CSS", "Ajax", "JQuery"],
@@ -167,8 +162,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/LaptopSellingWebsite/",
         demoLink: "https://quocthinh79.github.io/LaptopSellingWebsite/",
         knowledge: ["HTML", "CSS", "JS"],
-        teamSize: 3,
-        role: "Lead team",
       },
     },
     {
@@ -183,7 +176,6 @@ function PersonalExperience() {
         githubLink: "https://github.com/quocthinh79/SnakeGame",
         demoLink: "https://quocthinh79.github.io/SnakeGame/",
         knowledge: ["JQuery"],
-        teamSize: 1,
       },
     },
     {
@@ -197,14 +189,17 @@ function PersonalExperience() {
         technology: ["HTML", "CSS"],
         githubLink: "https://github.com/quocthinh79/TheBand",
         demoLink: "https://quocthinh79.github.io/TheBand/",
-        teamSize: 1,
       },
     },
   ];
 
   return (
     <>
-      <Divider orientation="left">PERSONAL EXPERIENCE</Divider>
+      <Divider orientation="left">
+        <Text strong italic upperCase>
+          personal experience
+        </Text>
+      </Divider>
       <DescriptionsList dataSource={dataSourcePersonal} />
     </>
   );

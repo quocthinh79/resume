@@ -11,7 +11,12 @@ export interface DividerProps {
   type?: "horizontal" | "vertical";
 }
 
-const StyledDivider = styled(DividerCustom)``;
+const StyledDivider = styled(DividerCustom)`
+  margin: 28px 0 !important;
+  ::after {
+    width: 0 !important;
+  }
+`;
 
 export function Divider({
   children,

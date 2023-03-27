@@ -18,12 +18,13 @@ export interface AvatarProps {
         xxl: number;
       };
   src?: string | ReactNode;
+  shape?: "circle" | "square";
 }
 
 const StyledAvatar = styled(AvatarCustom)``;
 
-export function Avatar({ children, size, src }: AvatarProps) {
-  const passProps = { size, src };
+export function Avatar({ children, size, src, shape }: AvatarProps) {
+  const passProps = { size, src, shape };
   return <StyledAvatar {...passProps}>{children}</StyledAvatar>;
 }
 

@@ -5,4 +5,3 @@ export * from "./deeptech-company";
 export * from "./contact-with-me";
 export * from "./personal-information";
 export * from "./personal-summary";
-export * from "./academic-qualifications";

@@ -20,7 +20,7 @@ export interface SpaceProps {
   direction?: EDirectionType;
   split?: ReactNode;
   wrap?: boolean;
-  size?: SizeProps;
+  size?: SizeProps | number;
   children?: ReactNode;
   widthFull?: boolean;
 }

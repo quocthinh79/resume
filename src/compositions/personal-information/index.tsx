@@ -1,38 +1,62 @@
 import {
   Avatar,
+  ContainerFixed,
   DescriptionItem,
   Descriptions,
+  Link,
   SizeProps,
   Space,
-  Text,
   Title,
 } from "@cv/components";
-import { EDirectionType, templateStringToClassName } from "@cv/core";
-import React from "react";
-import AcademicQualifications from "../academic-qualifications";
+import { EAlignSpace, EBreakpoint, EDirectionType } from "@cv/core";
 
 function PersonalInformation() {
   return (
-    <Space
-      widthFull
-      size={SizeProps.Large}
-      direction={EDirectionType.Horizontal}
-    >
-      <Avatar size={150} src="/images/cv-avatar.jpg" />
-      <Space>
-        <Title level={1}>Le Quoc Thinh</Title>
-        <Title level={3}>Front End Developer</Title>
-        <Descriptions size="small">
-          <DescriptionItem label="Birthday">1/5/2001</DescriptionItem>
-        </Descriptions>
-        <Descriptions size="small">
-          <DescriptionItem label="Location">Ho Chi Minh City</DescriptionItem>
-        </Descriptions>
-        <Descriptions size="small" title="NONG LAM UNIVERSITY (2019 - 2023)">
-          <DescriptionItem label="GPA">3.12</DescriptionItem>
-        </Descriptions>
+    <ContainerFixed breakpoint={EBreakpoint.MD} position="center">
+      <Space
+        widthFull
+        size={60}
+        direction={EDirectionType.Horizontal}
+        align={EAlignSpace.Start}
+      >
+        <Avatar shape="square" size={330} src="/images/cv-avatar.jpg" />
+        <Space size={SizeProps.Large} direction={EDirectionType.Vertical}>
+          <Space>
+            <Title bold level={1}>
+              QUOC THINH LE
+            </Title>
+            <Title level={3}>Front End Developer</Title>
+          </Space>
+          <Descriptions column={1} size="small">
+            <DescriptionItem label="Birthday">1/5/2001</DescriptionItem>
+            <DescriptionItem label="Location">Ho Chi Minh City</DescriptionItem>
+            <DescriptionItem label="Github">
+              <Link href="https://github.com/quocthinh79">
+                www.github.com/quocthinh79
+              </Link>
+            </DescriptionItem>
+            <DescriptionItem label="Linkedin">
+              <Link href="https://www.linkedin.com/in/quocthinh524">
+                www.linkedin.com/in/quocthinh524
+              </Link>
+            </DescriptionItem>
+            <DescriptionItem label="Email">
+              <Link href="mailto:thinhquocle524@gmail.com">
+                thinhquocle524@gmail.com
+              </Link>
+            </DescriptionItem>
+            <DescriptionItem label="Phone">
+              <Link href="tel:+84982625202">+84982625202</Link>
+            </DescriptionItem>
+            <DescriptionItem label="Facebook">
+              <Link href="https://www.facebook.com/unlocker0808">
+                www.facebook.com/unlocker0808
+              </Link>
+            </DescriptionItem>
+          </Descriptions>
+        </Space>
       </Space>
-    </Space>
+    </ContainerFixed>
   );
 }
 

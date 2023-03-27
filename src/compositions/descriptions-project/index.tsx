@@ -40,21 +40,21 @@ export function DescriptionsProject({
       {knowledge && (
         <DescriptionItem label="Knowledge">{_knowledge}</DescriptionItem>
       )}
-      {(githubLink || githubTitle) && (
-        <DescriptionItem label="Github">
-          {githubLink ? (
-            <Link href={githubLink}>{githubLink}</Link>
-          ) : (
-            <Text>{githubTitle}</Text>
-          )}
-        </DescriptionItem>
-      )}
       {(demoLink || demoTitle) && (
         <DescriptionItem label="Demo">
           {demoLink ? (
             <Link href={demoLink}>{demoLink}</Link>
           ) : (
             <Text>{demoTitle}</Text>
+          )}
+        </DescriptionItem>
+      )}
+      {(githubLink || githubTitle) && (
+        <DescriptionItem label="Github">
+          {githubLink ? (
+            <Link href={githubLink}>{githubLink}</Link>
+          ) : (
+            <Text>{githubTitle}</Text>
           )}
         </DescriptionItem>
       )}

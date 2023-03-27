@@ -4,7 +4,7 @@ import React from "react";
 import { ReactNode } from "react";
 
 const StyledTitle = styled(TitleCustom)`
-  margin: 0;
+  margin: 0 !important;
   margin-bottom: 0 !important;
 `;
 
@@ -14,6 +14,7 @@ export interface TitleProps {
   italic?: boolean;
   type?: "secondary" | "success" | "warning" | "danger";
   underline?: boolean;
+  bold?: boolean;
 }
 
 export function Title({
@@ -22,9 +23,14 @@ export function Title({
   level,
   type,
   underline,
+  bold,
 }: TitleProps) {
   const passProps = { italic, level, type, underline };
-  return <StyledTitle {...passProps}>{children}</StyledTitle>;
+  return (
+    <StyledTitle style={{ fontWeight: bold ? 700 : 600 }} {...passProps}>
+      {children}
+    </StyledTitle>
+  );
 }
 
 export default Title;

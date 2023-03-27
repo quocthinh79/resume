@@ -1,44 +1,25 @@
 import {
-  Avatar,
+  ContainerFixed,
   DescriptionItem,
   Descriptions,
   Divider,
-  ItemMeta,
-  List,
-  ListItem,
   Text,
 } from "@cv/components";
+import { EBreakpoint } from "@cv/core";
 
-function AcademicQualifications() {
-  const data = [
-    {
-      title: "NONG LAM UNIVERSITY (2019 - 2023)",
-      avatar: "/images/icons/ucmuaf.png",
-      description: (
-        <Descriptions>
-          <DescriptionItem label="GPA">3.12</DescriptionItem>
-        </Descriptions>
-      ),
-    },
-  ];
+export function AcademicQualifications() {
   return (
     <>
-      <List
-        itemLayout="vertical"
-        size="large"
-        dataSource={data}
-        renderItem={({ title, avatar, description }) => (
-          <>
-            <ListItem key={title}>
-              <ItemMeta
-                avatar={<Avatar src={avatar} />}
-                title={<Text>{title}</Text>}
-                description={description}
-              />
-            </ListItem>
-          </>
-        )}
-      />
+      <Divider orientation="left">
+        <Text strong italic upperCase>
+          ACADEMIC QUALIFICATIONS
+        </Text>
+      </Divider>
+      <ContainerFixed breakpoint={EBreakpoint.MD} position="center">
+        <Descriptions size="small" title="NONG LAM UNIVERSITY (2019 - 2023)">
+          <DescriptionItem label="GPA">3.12</DescriptionItem>
+        </Descriptions>
+      </ContainerFixed>
     </>
   );
 }

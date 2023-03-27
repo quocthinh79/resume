@@ -30,7 +30,7 @@ export function ContainerFixed({
              case "sm":
                return 576;
              case "md":
-               return 768;
+               return 845;
              case "lg":
                return 992;
              case "xl":

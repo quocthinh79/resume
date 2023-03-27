@@ -10,6 +10,7 @@ import {
   Text,
 } from "@cv/components";
 import { EJustifyFlex } from "@cv/core";
+import styled from "@emotion/styled";
 import React from "react";
 import EFlexAlign from "src/core/types/enum/EAlignFlex";
 import DescriptionsProject, {
@@ -48,26 +49,34 @@ export function DescriptionsList({ dataSource }: DescriptionListProps) {
             <ListItem
               key={title}
               extra={
-                imageDemo ? (
-                  <Flex
-                    height={"100%"}
-                    width={"150px"}
-                    align={EFlexAlign.Center}
-                    justify={EJustifyFlex.Center}
-                  >
-                    <Link href={descriptionProject?.demoLink}>
-                      <Image preview={false} alt={title} src={imageDemo} />
-                    </Link>
-                  </Flex>
-                ) : (
-                  <></>
-                )
+                <Flex
+                  height={"100%"}
+                  width={"200px"}
+                  align={EFlexAlign.Center}
+                  justify={EJustifyFlex.Center}
+                >
+                  <Link href={descriptionProject?.demoLink}>
+                    {imageDemo ? (
+                      <Card>
+                        <Image preview={false} alt={title} src={imageDemo} />
+                      </Card>
+                    ) : (
+                      <></>
+                    )}
+                  </Link>
+                </Flex>
               }
             >
               <ItemMeta
-                avatar={<Avatar src={avatar} />}
+                // avatar={<Avatar src={avatar} />}
                 title={
-                  href ? <Link href={href}>{title}</Link> : <Text>{title}</Text>
+                  href ? (
+                    <Link href={href} upperCase>
+                      {title}
+                    </Link>
+                  ) : (
+                    <Text upperCase>{title}</Text>
+                  )
                 }
                 description={description}
               />

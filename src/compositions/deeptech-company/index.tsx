@@ -1,4 +1,4 @@
-import { Divider } from "@cv/components";
+import { Divider, Text } from "@cv/components";
 import React from "react";
 import DescriptionsList, {
   DescriptionsListDataProps,
@@ -10,7 +10,8 @@ export function DeeptechCompany() {
       title: `Monorepo`,
       avatar: `/images/icons/nx-dev.png`,
       description:
-        "Be approached and work with monorepo architecture in six month",
+        "In six months, be contacted and work using monorepo architecture.",
+      imageDemo: "/images/nx-dev.png",
       descriptionProject: {
         key: 0,
         teamSize: 3,
@@ -41,7 +42,6 @@ export function DeeptechCompany() {
           "Responsive with TailwindCSS",
         ],
         demoLink: "https://deeporium.com/",
-        teamSize: 1,
       },
     },
     {
@@ -65,7 +65,9 @@ export function DeeptechCompany() {
   return (
     <>
       <Divider orientation="left">
-        DeepTech Technology Joint Stock Company (Oct 2022 - Apr 2023)
+        <Text strong italic upperCase>
+          DeepTech Technology Joint Stock Company (Oct 2022 - Apr 2023)
+        </Text>
       </Divider>
       <DescriptionsList dataSource={dataSourceDeeptech} />
     </>
