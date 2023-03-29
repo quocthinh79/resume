@@ -1,5 +1,3 @@
-import dynamic from "next/dynamic";
-
-const Timeline = dynamic(() => import("antd/es/timeline"), { ssr: false });
+import Timeline from "antd/es/timeline";
 
 export default Timeline;

@@ -9,10 +9,18 @@ export interface ImageProps {
   width?: string | number;
   preview?: boolean;
   src?: string;
+  loading?: "lazy" | "eager";
 }
 
-export function Image({ alt, height, preview, src, width }: ImageProps) {
-  const passProps = { alt, height, preview, src, width };
+export function Image({
+  alt,
+  height,
+  preview,
+  src,
+  width,
+  loading = "lazy",
+}: ImageProps) {
+  const passProps = { alt, height, preview, src, width, loading };
   return <StyledImage {...passProps} />;
 }
 

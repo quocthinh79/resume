@@ -1,7 +1,3 @@
-import dynamic from "next/dynamic";
-
-const Image = dynamic(() => import("antd/es/image"), {
-  ssr: false,
-});
+import Image from "antd/es/image";
 
 export default Image;

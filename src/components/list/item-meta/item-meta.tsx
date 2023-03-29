@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic";
-const Meta = dynamic(
-  () => import("antd/es/list/Item").then((item) => item.Meta),
-  { ssr: false }
-);
+import List from "antd/es/list";
+const { Item } = List;
+const { Meta } = Item;
 
 export default Meta;

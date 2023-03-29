@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Card = dynamic(() => import("antd/es/card/Card"), { ssr: false });
+import Card from "antd/es/card/Card";
 
 export default Card;

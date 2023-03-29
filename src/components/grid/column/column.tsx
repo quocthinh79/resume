@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Col = dynamic(() => import("antd/es/col"), { ssr: false });
+import Col from "antd/es/grid/col";
 
 export default Col;

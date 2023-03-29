@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Divider = dynamic(() => import("antd/es/divider"), { ssr: false });
+import Divider from "antd/es/divider";
 
 export default Divider;

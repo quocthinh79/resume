@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Link = dynamic(() => import("antd/es/typography/Link"), { ssr: false });
+import Link from "antd/es/typography/Link";
 
 export default Link;

@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Avatar = dynamic(() => import("antd/es/avatar/avatar"), { ssr: false });
+import Avatar from "antd/es/avatar/avatar";
 
 export default Avatar;

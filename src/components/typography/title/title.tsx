@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const Title = dynamic(() => import("antd/es/typography/Title"), { ssr: false });
+import Title from "antd/es/typography/Title";
 
 export default Title;

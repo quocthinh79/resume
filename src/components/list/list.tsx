@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
-const List = dynamic(() => import("antd/es/list"), { ssr: false });
+import List from "antd/es/list";
 
 export default List;

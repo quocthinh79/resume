@@ -1,6 +1,3 @@
-import dynamic from "next/dynamic";
-const DescriptionsItem = dynamic(() => import("antd/es/descriptions/Item"), {
-  ssr: false,
-});
+import DescriptionsItem from "antd/es/descriptions/Item";
 
 export default DescriptionsItem;
