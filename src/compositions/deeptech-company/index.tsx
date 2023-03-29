@@ -11,7 +11,7 @@ export function DeeptechCompany() {
       avatar: `/images/icons/nx-dev.png`,
       description:
         "Working with Monorepo front end architecture for six months, fundamental structure and configuration understanding.",
-      imageDemo: "/images/nx-dev.png",
+      imageDemo: "/images/nx-dev.jpg",
       descriptionProject: {
         key: 0,
         technology: ["Nx"],
@@ -30,7 +30,7 @@ export function DeeptechCompany() {
       avatar: `/images/icons/html.png`,
       description:
         "With TailwindCSS, create a static website that represents the company. TailwindCSS is used to create a responsive website.",
-      imageDemo: "/images/deeporium.png",
+      imageDemo: "/images/deeporium.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "TailwindCSS"],
@@ -48,7 +48,7 @@ export function DeeptechCompany() {
       avatar: `/images/icons/html.png`,
       description:
         "Create a static website using Bootstrap and seek animation assistance from an experienced user. The fundamentals of using the GSAP library.",
-      imageDemo: "/images/deeptech.png",
+      imageDemo: "/images/deeptech.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "SCSS", "Bootstrap", "GSAP"],

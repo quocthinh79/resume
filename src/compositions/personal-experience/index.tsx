@@ -13,7 +13,7 @@ function PersonalExperience() {
       avatar: `/images/icons/reactjs.png`,
       description:
         "Create an e-commerce site with ReactJS and TypeScript. Manage reusable code and practice custom hooks",
-      imageDemo: "/images/laptop-selling-website-1.png",
+      imageDemo: "/images/laptop-selling-website-1.jpg",
       descriptionProject: {
         key: 0,
         technology: ["ReactJS", "Ant Design", "Emotion Styled", "Typescript"],
@@ -28,7 +28,7 @@ function PersonalExperience() {
       avatar: `/images/icons/nextjs.png`,
       description:
         "NextJS fundamental training and Ant Design skills practice.",
-      imageDemo: "/images/resume.png",
+      imageDemo: "/images/resume.jpg",
       descriptionProject: {
         key: 0,
         technology: ["NextJS", "Ant Design", "Typescript"],
@@ -42,7 +42,7 @@ function PersonalExperience() {
       title: `My old resume`,
       avatar: `/images/icons/html.png`,
       description: "Develop and practice your HTML and CSS abilities.",
-      imageDemo: "/images/old-resume.png",
+      imageDemo: "/images/old-resume.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "SCSS"],
@@ -56,7 +56,7 @@ function PersonalExperience() {
       title: `Movie web`,
       avatar: `/images/icons/reactjs.png`,
       description: "Using themoviedb's given API knowledge",
-      imageDemo: "/images/movie-project.png",
+      imageDemo: "/images/movie-project.jpg",
       descriptionProject: {
         key: 0,
         technology: [
@@ -78,7 +78,7 @@ function PersonalExperience() {
       avatar: `/images/icons/reactjs.png`,
       description:
         "Create a small game with ReactJS while honing my reasoning abilities and leveraging API",
-      imageDemo: "/images/deckofcard.png",
+      imageDemo: "/images/deckofcard.jpg",
       descriptionProject: {
         key: 0,
         technology: ["ReactJS", "Axios", "SCSS"],
@@ -93,7 +93,7 @@ function PersonalExperience() {
       avatar: `/images/icons/reactjs.png`,
       description:
         "To-do lists are straightforward but paired with data structures and sorting algorithms. using data structures and algorithms to address issues in the real world",
-      imageDemo: "/images/todo-list.png",
+      imageDemo: "/images/todo-list.jpg",
       descriptionProject: {
         key: 0,
         technology: ["ReactJS", "Bootstrap"],
@@ -107,7 +107,7 @@ function PersonalExperience() {
       title: "PHOTO APP",
       avatar: `/images/icons/reactjs.png`,
       description: "Simple website for Redux practice",
-      imageDemo: "/images/photo_app.png",
+      imageDemo: "/images/photo_app.jpg",
       descriptionProject: {
         key: 0,
         technology: ["ReactJS", "Redux Tool Kit"],
@@ -122,7 +122,7 @@ function PersonalExperience() {
       avatar: `/images/icons/angular.png`,
       description:
         "Implement newspaper reading website with RSS provided from website",
-      imageDemo: "/images/news-website.png",
+      imageDemo: "/images/news-website.jpg",
       descriptionProject: {
         key: 0,
         technology: ["Angular", "RXJS", "Bootstrap"],
@@ -136,7 +136,7 @@ function PersonalExperience() {
       title: "E-COMMERCE LAPTOP WEBSITE",
       avatar: `/images/icons/java.png`,
       description: "E-commerce website implemented by JSP Servlet",
-      imageDemo: "/images/laptop_selling_website.png",
+      imageDemo: "/images/laptop_selling_website.jpg",
       descriptionProject: {
         key: 0,
         technology: ["JSP - Servlet", "HTML", "CSS", "Ajax", "JQuery"],
@@ -150,7 +150,7 @@ function PersonalExperience() {
       title: "E-COMMERCE LAPTOP WEBSITE",
       avatar: `/images/icons/html.png`,
       description: "Implement e-commerce website with HTML CSS JS",
-      imageDemo: "/images/laptop_selling_website.png",
+      imageDemo: "/images/laptop_selling_website.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS", "JS"],
@@ -165,7 +165,7 @@ function PersonalExperience() {
       avatar: `/images/icons/html.png`,
       description:
         "A straightforward 7-level snake-hunting game. Boost your knowledge of logic and JQuery.",
-      imageDemo: "/images/snake_game.png",
+      imageDemo: "/images/snake_game.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "SCSS", "JQuery"],
@@ -179,7 +179,7 @@ function PersonalExperience() {
       title: "The Band",
       avatar: `/images/icons/html.png`,
       description: "HTML CSS practice site",
-      imageDemo: "/images/the_band.png",
+      imageDemo: "/images/the_band.jpg",
       descriptionProject: {
         key: 0,
         technology: ["HTML", "CSS"],
